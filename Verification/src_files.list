@@ -1,0 +1,3 @@
+../RTL/registered.v
+../RTL/DSP48A1.v
+DSP48A1_tb.v
