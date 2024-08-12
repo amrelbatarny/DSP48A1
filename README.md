@@ -8,19 +8,19 @@ This repository contains the RTL design, verification environment, and documenta
 ## Repository Structure
 
 ```
-│   DSP.xdc                                                                                                                                                                         
-│                                                                                                                                                                                   
-├───Documentation                                                                                                                                                                   
-│       Documentation.docx                                                                                                                                                          
-│       Documentation.pdf                                                                                                                                                           
-│                                                                                                                                                                                   
-├───RTL                                                                                                                                                                             
-│       DSP48A1.v                                                                                                                                                                   
-│       registered.v                                                                                                                                                                
-│                                                                                                                                                                                   
-└───Verification                                                                                                                                                                    
+│   DSP.xdc
+│
+├───Documentation
+│       Documentation.docx
+│       Documentation.pdf
+│
+├───RTL
+│       DSP48A1.v
+│       registered.v
+│
+└───Verification
         DSP48A1_tb.v                                                                                                                                                                
-        run_DSP48A1.do                                                                                                                                                              
+        run_DSP48A1.do
         src_files.list
 ```
 
