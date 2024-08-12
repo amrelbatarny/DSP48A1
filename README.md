@@ -82,7 +82,7 @@ The DSP48A1 block is designed with various configurable parameters and handles m
 
 1. Clone the repository by typing the following command in your terminal
 ```bash
-git clone https://github.com/amrelbatarny/SPI_Slave_with_Single_Port_RAM
+git clone https://github.com/amrelbatarny/DSP48A1
 ```
 2. Open ModelSim/QuestaSim
 
@@ -90,7 +90,7 @@ git clone https://github.com/amrelbatarny/SPI_Slave_with_Single_Port_RAM
 
 4. From the `Transcript` window run the following TCL command to run the script file
 ```tcl
-do run_SPI_spr_ram.do
+do run_DSP48A1.do
 ```
 
 
