@@ -3,7 +3,6 @@
 This repository contains the RTL design, verification environment, and documentation for the DSP48A1 Block implemented using Verilog.
 
 ## Architecture
-![DSP48A1-Slice-Primitive](Documentation/DSP48A1-Slice-Primitive.png)
 ![DSP48A1-Slice](Documentation/DSP48A1-Slice.png)
 
 ## Repository Structure
