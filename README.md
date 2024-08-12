@@ -73,23 +73,41 @@ The DSP48A1 block is designed with various configurable parameters and handles m
 
 ## Usage
 
-1. **RTL Simulation**: Use the provided testbench `DSP48A1_tb.v` and the script `run_DSP48A1.do` to run simulations and verify the functionality of the DSP48A1 block.
-2. **Synthesis**: Use `DSP.xdc` for synthesis constraints.
+### Prerequisites
 
-## Documentation
+- ModelSim/QuestaSim for simulation
+- Vivado/Quartus Prime for synthesis, place-and-route, and timing analysis
 
-Detailed documentation is provided in the `Documentation` folder. Refer to `Documentation.docx` or `Documentation.pdf` for a comprehensive explanation of the design, its features, and usage instructions.
+### Running Simulations
 
-## License
+1. Clone the repository by typing the following command in your terminal
+```bash
+git clone https://github.com/amrelbatarny/SPI_Slave_with_Single_Port_RAM
+```
+2. Open ModelSim/QuestaSim
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+3. From the `File` menu, click on `Change directory` and navigate to the `Verification` directory
 
-## Acknowledgments
+4. From the `Transcript` window run the following TCL command to run the script file
+```tcl
+do run_SPI_spr_ram.do
+```
 
-Special thanks to [Your Name/Institution] for their support and contributions to this project.
 
-For any queries or contributions, please contact [Your Contact Information].
+## Further Resources
 
----
+The included documentation provides a detailed explanation of the design and implementation process (refer to `Documentation` / `Documentation.pdf`).
 
-Feel free to reach out if you have any questions or need further assistance. Happy coding!
+## Contribution
+
+We welcome contributions to this educational project. Feel free to submit pull requests for improvements or additional features.
+
+## Contact
+
+Click on the image below
+
+<a href="https://beacons.ai/amrelbatarny" target="_blank">
+  <img align="left" alt="Beacons" width="180px" src="https://www.colormango.com/development/boxshot/beacons-ai_154511.png" />
+</a> 
+<br>
+
